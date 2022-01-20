@@ -5,8 +5,6 @@
 	width: 100%;
     background-image: url(img/img.2.2.jpg);
     /*background-color: rgb(245, 229, 177);*/
-    overflow-x: hidden;
-    overflow-y: hidden;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: inline-block;
 }
@@ -16,8 +14,6 @@
     height: 100%;
 	margin: 0;
 	width: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: inline-block;
 }
@@ -33,6 +29,10 @@
     
     width: 1535px;
     height: 425px;
+}
+.box
+{
+    font-size: 23px;
 }
 
 .cor01
@@ -58,54 +58,17 @@
 	width: 275px;
     height: 50px;
     margin-top: -250px;
-    margin-left: 0px;
+    margin-left: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.box02    
+
+.espaco
 {
-    background-color: #ffffff00;
-    width: 275px;
-    height: 50px;
-    margin-left: 275px;
-    margin-top: -50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.box03   
-{
-    background-color: #ffffff00;
-    width: 275px;
-    height: 50px;
-    margin-left: 550px;
-    margin-top: -50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.box04   
-{
-    background-color: #ffffff00;
-    width: 275px;
-    height: 50px;
-    margin-left: 825px;
-    margin-top: -50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.box05   
-{
-    background-color: #ffffff00;
-    width: 275px;
-    height: 50px;
-    margin-left: 1100px;
-    margin-top: -50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-top: 350px;
+    margin-left: 30px;
+    margin-right: 0px;
 }
 
 .quest0
@@ -214,7 +177,7 @@
 }
 .e
 {
-    background-color: #29767A;
+    background-color: #29767A
 }
 
 .fundo1
@@ -222,8 +185,21 @@
     background-color: #ffffff;
     margin-left: 30px;
     margin-top: 30px;
-    margin-right: 30px;
-    
+    margin-right: 350px;
+    font-size: 20px;
+    text-align: justify; 
+}
+
+.btt
+{
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    margin-left: -10px;
+    margin-bottom: 30px;
+    display: inline-block;
+    align-items: center;
+    justify-content: left;
 }
 
 
